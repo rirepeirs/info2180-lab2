@@ -1,0 +1,122 @@
+body{
+    font-size: 18px;
+    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sansserif;
+    color: #2D3748;
+    background-color: #FFFFFF;
+}
+ 
+/*header*/
+header{
+    clear: both;
+}
+
+.items{
+    background-color:  #63B3ED;
+    padding: 10px;
+    /*text-align: center; 
+    justify-content: center;*/ 
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+.items img{
+    border-radius: 50%;
+    padding-top: 30px;
+}
+
+.items h1{
+    font-size: 36px;
+    margin-bottom: 0em;
+}
+
+.items p{
+    margin-top: 0em;
+}
+
+/*body*/
+
+article{
+    float: left;
+    margin: 0 1.5%;
+    width: 63%;
+}
+
+#firstpost img{
+    float: left;
+    padding-right: 10px;
+}
+
+.mainbody img{
+    padding-right: 10px;
+}
+
+p#firstpara{
+    margin-bottom: 0em;
+}
+
+#secondpost img{
+    float: right;
+}
+
+p#secondpara{
+    margin-top: 0em;
+}
+
+article h2{
+    margin-bottom: 0em;
+    font-size: 32px;
+    color: #48BB78;
+}
+
+article h5{
+    color: #718096;
+    margin-top: 0em;
+}
+
+aside{
+    float: right;
+    margin: 0 1.5%;
+    width: 30%;
+}
+
+aside h3{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+aside .SocialMedia h3{
+    color: #48BB78;
+}
+
+aside .Archives h3{
+    color: #48BB78;
+}
+
+aside .About h3{
+    color: #000000;
+}
+
+aside .About{
+    background-color: #E2E8F0;
+    padding: 10px;
+}
+
+aside a:link { 
+    text-decoration: none;
+}
+
+aside .Archives .SocialMedia ul li a:link{
+    color: #4299E1;
+}
+
+/*footer*/
+
+footer{
+    clear: both;
+    background-color: #2C5282;
+    color: #FFFFFF;
+    padding: 7px;
+}
